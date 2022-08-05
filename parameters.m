@@ -17,8 +17,8 @@ I_zz = 8.801e-3; % kg*m^2
 
 % Initial configuration
 roll_i = -0.1;   % rad
-pitch_i = -0.9;     % rad
-yaw_i = -3;     % rad
+pitch_i = -0.9;  % rad
+yaw_i = -3;      % rad
 altitude_i = 0;  % meters
 
 % Desired configuration
