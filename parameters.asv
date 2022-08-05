@@ -18,7 +18,7 @@ I_zz = 8.801e-3; % kg*m^2
 % Initial configuration
 roll_i = -0.1;   % rad
 pitch_i = -0.9;     % rad
-yaw_i = -3;     % rad
+yaw_i = -pi;     % rad
 altitude_i = 0;  % meters
 
 % Desired configuration
@@ -47,11 +47,6 @@ set(l, 'interpreter', 'latex')
 figure('Name', 'Pitch angle', 'NumberTitle','off')
 plot(tout, pitch, tout, ones(size(tout))*pitch_d);
 xlabel('Time (s)', 'interpreter', 'latex')
-l = legend('$\theta$ Current pitch angle', '$\theta_d$ Desired pitch angle');
+l = legend('$\theta$ Current pitch angle', '$\theta_d$ Desired current');
 set(l, 'interpreter', 'latex')
 
-figure('Name', 'Yaw angle', 'NumberTitle','off')
-plot(tout, yaw, tout, ones(size(tout))*yaw_d);
-xlabel('Time (s)', 'interpreter', 'latex')
-l = legend('$\psi$ Current yaw angle', '$\psi_d$ Desired yaw angle');
-set(l, 'interpreter', 'latex')
