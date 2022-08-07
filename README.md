@@ -67,8 +67,8 @@ This is a figure with the trajectory of the drone along the time with the previo
 ### Changing the initial and desired configurations
 Both the initial and desired configurations can be modified in the ```parameters.m``` script.
 
-## Plots
-At the end of each simulation plots with the results will be displayed in order to see the behavior of the quadrotor along the time $t$. For this, I've implemented charts of the three Euler angles to see what's going on. It's also worth to point out that the same plots can be seen in the Simulink simulation through the scopes placed at the right part of the diagram.
+## Charts
+At the end of each simulation charts with the results will be displayed in order to see the behavior of the quadrotor along the time $t$. For this, I've implemented charts of the three Euler angles to see what's going on. It's also worth to point out that the same charts can be seen in the Simulink simulation through the scopes placed at the right part of the diagram.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/40195016/182979211-934d1000-aaf2-42c2-9636-d21dcf2ea121.svg" alt="drawing" width="330"/>
@@ -80,7 +80,7 @@ At the end of each simulation plots with the results will be displayed in order 
   Fig.3. Left: Current and desired roll angle $\phi$ and $\phi_d$. Center: Current and desired pitch angle $\theta$ and $\theta_d$. Right: Current and desired yaw angle $\psi$ and $\psi_d$.
 </p>
 
-It may be the case that $x-y$ and $y-z$ plots get open at the beginning of each simulation, to avoid this, simply delete the **X-Y graphs** in the diagram at ```quadrotor_model/Quadrotor System```.
+It may be the case that $x-y$ and $y-z$ charts get open at the beginning of each simulation, to avoid this, simply delete the **X-Y graphs** in the diagram at ```quadrotor_model/Quadrotor System```.
 
 ## Usage 
 In order to execute the simulation, the script ```parameters.m``` should be run together with the ```quadrotor_model.slx``` simulink file.
