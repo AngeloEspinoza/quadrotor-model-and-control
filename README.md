@@ -5,7 +5,7 @@
 </p>
 
 <p align = "center">
-  Fig.1. Quadrotor with the applied forces over the rotors.
+  Fig. 1. Quadrotor with the applied forces over the rotors.
 </p>
 
 
@@ -61,7 +61,7 @@ This is a figure with the trajectory of the drone along the time with the previo
 </p>
 
 <p align = "center">
-  Fig.2. Positions in $x, y$ and $z$ of the quadrotor after 10 seconds of simulations.
+  Fig. 2. Positions in $x, y$ and $z$ of the quadrotor after 10 seconds of simulations.
 </p>
 
 ### Changing the initial and desired configurations
@@ -77,7 +77,8 @@ At the end of each simulation charts with the results will be displayed in order
 </p>
 
 <p align = "center">
-  Fig.3. Left: Current and desired roll angle $\phi$ and $\phi_d$. Center: Current and desired pitch angle $\theta$ and $\theta_d$. Right: Current and desired yaw angle $\psi$ and $\psi_d$.
+  
+  Fig. 3. Left: Current and desired roll angle $\phi$ and $\phi_d$. Center: Current and desired pitch angle $\theta$ and $\theta_d$. Right: Current and desired yaw angle $\psi$ and $\psi_d$.
 </p>
 
 It may be the case that $x-y$ and $y-z$ charts get open at the beginning of each simulation, to avoid this, simply delete the **X-Y graphs** in the diagram at ```quadrotor_model/Quadrotor System```.
